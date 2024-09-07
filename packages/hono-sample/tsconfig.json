@@ -1,0 +1,15 @@
+{
+    "extends": ["@repo/typescript/tsconfig.base.json"],
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "lib": ["ESNext"],
+        "types": ["node", "@cloudflare/workers-types/2023-07-01"],
+        "jsx": "react-jsx",
+        "jsxImportSource": "hono/jsx",
+        "paths": {
+            "@repo/hono-sample/*": ["./src/*"]
+        }
+    }
+}
