@@ -5,8 +5,7 @@
     "trailingComma": "none",
     "semi": false,
     "htmlWhitespaceSensitivity": "css",
-    "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
-    "tailwindFunctions": ["clsx"],
+    "plugins": ["@ianvs/prettier-plugin-sort-imports"],
     "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy", "classProperties"],
     "importOrderTypeScriptVersion": "5.3.3",
     "importOrder": [

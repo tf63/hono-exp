@@ -12,10 +12,6 @@ export default defineConfig({
             {
                 find: '@repo/vite/',
                 replacement: `${__dirname}/src/`
-            },
-            {
-                find: '@repo/ui/',
-                replacement: `${__dirname}/../../packages/ui/src/`
             }
         ]
     },
